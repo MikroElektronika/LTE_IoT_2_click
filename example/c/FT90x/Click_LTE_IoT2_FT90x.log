@@ -1,0 +1,20 @@
+0	1	mikroCFT90x.exe -MSF -DBG -p FT900 -BIN -DL -SSA -O11111114 -fo100 -N"D:\Clicks_git\LTE_IoT_2_Click\SW\example\c\FT90x\Click_LTE_IoT2_FT90x.mcpf9" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for FT90x\Defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for FT90x\Uses\" -SP"D:\Clicks_git\LTE_IoT_2_Click\SW\example\c\FT90x\" -SP"D:\Clicks_git\LTE_IoT_2_Click\SW\library\HAL\" -SP"D:\Clicks_git\LTE_IoT_2_Click\SW\library\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for FT90x\Packages\mikroBUS Board Definition API\Uses\" -IP"D:\Clicks_git\LTE_IoT_2_Click\SW\library\" -IP"D:\Clicks_git\LTE_IoT_2_Click\SW\library\HAL\" -IP"D:\Clicks_git\LTE_IoT_2_Click\SW\example\c\FT90x\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for FT90x\Packages\mikroBUS Board Definition API\Uses\" "Click_LTE_IoT2_FT90x.c" "__lteiot2_driver.c" "__Lib_Delays.emcl" "__Lib_System.emcl" "__Lib_Math.emcl" "__Lib_MathDouble.emcl" "__Lib_GPIO.emcl" "__Lib_CString.emcl" "__Lib_Conversions.emcl" "__Lib_UART.emcl" "easyft90x_v7_FT900.emcl" "Click_LTE_IoT2.pld"	 
+diagnostics: 0	122	Compilation Started	stdint.h
+hint: 0	1004	interrupt handler (Timer_interrupt at 0x0013)	click_lte_iot2_timer.h
+diagnostics: 129	123	Compiled Successfully	Click_LTE_IoT2_FT90x.c
+hint: 33	1164	Variable 'evArgs' has been eliminated by optimizer	Click_LTE_IoT2_FT90x.c
+diagnostics: 0	122	Compilation Started	stdint.h
+diagnostics: 793	123	Compiled Successfully	__lteiot2_driver.c
+hint: 217	1164	Variable 'tmp' has been eliminated by optimizer	__lteiot2_driver.c
+hint: 154	1164	Variable 'tmp' has been eliminated by optimizer	__lteiot2_driver.c
+hint: 324	1164	Variable 'tmp' has been eliminated by optimizer	__lteiot2_driver.c
+hint: 335	1164	Variable 'tmp' has been eliminated by optimizer	__lteiot2_driver.c
+hint: 733	1164	Variable 'tmp' has been eliminated by optimizer	__lteiot2_driver.c
+diagnostics: 0	127	All files Compiled in 157 ms	 
+hint: 0	1144	Used RX: 27 (84%)   Free RX: 5 (16%)	Used RX: 27 (84%)   Free RX: 5 (16%)
+hint: 0	1144	Static RAM (bytes): 1716   Dynamic RAM (bytes): 63813	Static RAM (bytes): 1716   Dynamic RAM (bytes): 63813
+hint: 0	1144	Used ROM (bytes): 12873 (5%)  Free ROM (bytes): 249271 (95%)	Used ROM (bytes): 12873 (5%)  Free ROM (bytes): 249271 (95%)
+diagnostics: 0	125	Project Linked Successfully	Click_LTE_IoT2_FT90x.mcpf9
+diagnostics: 0	128	Linked in 156 ms	 
+diagnostics: 0	129	Project 'Click_LTE_IoT2_FT90x.mcpf9' completed: 359 ms	 
+diagnostics: 0	103	Finished successfully: 06 jul 2018, 09:28:23	Click_LTE_IoT2_FT90x.mcpf9

@@ -1,0 +1,12 @@
+unit Click_LTE_IoT2_config;
+
+uses Click_LTE_IoT2_types;
+
+const
+    _LTEIOT2_TIMER_LIMIT : uint32_t = 5; // 5 ticks
+    _LTEIOT2_BUF_WARNING : uint16_t = 192; // 192 bytes activate warning
+    _LTEIOT2_POLL_ENABLE : uint8_t = 1; // poll enabled
+    _LTEIOT2_CALLBACK_ENABLE : uint8_t = 0; // calback disabled
+    _LTEIOT2_UART_CFG : array[3] of uint32_t = (115200, _UART_NOPARITY, _UART_ONE_STOPBIT); 
+    
+end.

@@ -1,0 +1,25 @@
+'
+' Use mikroE Timer Calculator to generate proper timer configuration
+' and timer ISR.
+'
+' https://www.mikroe.com/timer-calculator
+'
+module Click_LTE_IoT2_timer
+
+include Click_LTE_IoT2_types
+    
+sub procedure lteiot2_configTimer() 
+
+implements
+
+sub procedure lteiot2_configTimer() 
+
+end sub
+
+sub procedure Timer_interrupt() 
+
+    lteiot2_tick() 
+
+end sub
+
+end.

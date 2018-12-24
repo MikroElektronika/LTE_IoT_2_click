@@ -1,0 +1,20 @@
+0	1	mikroCdsPIC.exe -MSF -DBG -pP33FJ256GP710A -DL -SSA -O11111114 -fo8 -N"D:\Clicks_git\LTE_IoT_2_Click\SW\example\c\DSPIC\Click_LTE_IoT2_DSPIC.mcpds" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for dsPIC\Defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for dsPIC\Uses\" -SP"D:\Clicks_git\LTE_IoT_2_Click\SW\example\c\DSPIC\" -SP"D:\Clicks_git\LTE_IoT_2_Click\SW\library\HAL\" -SP"D:\Clicks_git\LTE_IoT_2_Click\SW\library\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for dsPIC\Packages\mikroBUS Board Definition API\Uses\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for dsPIC\Uses\" -IP"D:\Clicks_git\LTE_IoT_2_Click\SW\example\c\DSPIC\" -IP"D:\Clicks_git\LTE_IoT_2_Click\SW\library\" -IP"D:\Clicks_git\LTE_IoT_2_Click\SW\library\HAL\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for dsPIC\Packages\mikroBUS Board Definition API\Uses\" "Click_LTE_IoT2_DSPIC.c" "__lteiot2_driver.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl" "__Lib_CString.mcl" "__Lib_Conversions.mcl" "__Lib_UART_12_p24_p33.mcl" "easypicfusion_v7_P33FJ256GP710A.mcl" "Click_LTE_IoT2.pld"	 
+diagnostics: 0	121	Loading...	 
+diagnostics: 0	122	Compilation Started	stdint.h
+hint: 0	1004	interrupt handler (Timer_interrupt at 0x001A)	click_lte_iot2_timer.h
+diagnostics: 129	123	Compiled Successfully	Click_LTE_IoT2_DSPIC.c
+diagnostics: 0	122	Compilation Started	stdint.h
+diagnostics: 793	123	Compiled Successfully	__lteiot2_driver.c
+hint: 217	1164	Variable 'tmp' has been eliminated by optimizer	__lteiot2_driver.c
+hint: 161	1164	Variable 'tmp' has been eliminated by optimizer	__lteiot2_driver.c
+hint: 324	1164	Variable 'tmp' has been eliminated by optimizer	__lteiot2_driver.c
+hint: 335	1164	Variable 'tmp' has been eliminated by optimizer	__lteiot2_driver.c
+hint: 733	1164	Variable 'tmp' has been eliminated by optimizer	__lteiot2_driver.c
+diagnostics: 0	127	All files Compiled in 125 ms	 
+hint: 0	1144	Used RX (bytes): 32 (100%)   Free RX (bytes): 0 (0%)	Used RX (bytes): 32 (100%)   Free RX (bytes): 0 (0%)
+hint: 0	1144	Static RAM (bytes): 1374   Dynamic RAM (bytes): 29346	Static RAM (bytes): 1374   Dynamic RAM (bytes): 29346
+hint: 0	1144	Used ROM (bytes): 4892 (3%)  Free ROM (bytes): 170212 (97%)	Used ROM (bytes): 4892 (3%)  Free ROM (bytes): 170212 (97%)
+diagnostics: 0	125	Project Linked Successfully	Click_LTE_IoT2_DSPIC.mcpds
+diagnostics: 0	128	Linked in 203 ms	 
+diagnostics: 0	129	Project 'Click_LTE_IoT2_DSPIC.mcpds' completed: 484 ms	 
+diagnostics: 0	103	Finished successfully: 06 jul 2018, 09:36:52	Click_LTE_IoT2_DSPIC.mcpds

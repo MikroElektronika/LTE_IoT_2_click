@@ -1,0 +1,20 @@
+0	1	mikroCPIC32.exe -MSF -DBG -pP32MX795F512L -C -DL -SSA -EBASE 0x9FC01000 -INTDEF MV_SRS7_IS32 -O11111115 -fo80 -N"D:\Clicks_git\L\LTE_IoT_2_Click\SW\example\c\PIC32\Click_LTE_IoT2_PIC32.mcp32" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC32\Defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC32\Uses\" -SP"D:\Clicks_git\L\LTE_IoT_2_Click\SW\example\c\PIC32\" -SP"D:\Clicks_git\L\LTE_IoT_2_Click\SW\library\HAL\" -SP"D:\Clicks_git\L\LTE_IoT_2_Click\SW\library\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC32\Packages\mikroBUS Board Definition API\Uses\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC32\Uses\" -IP"D:\Clicks_git\L\LTE_IoT_2_Click\SW\example\c\PIC32\" -IP"D:\Clicks_git\L\LTE_IoT_2_Click\SW\library\" -IP"D:\Clicks_git\L\LTE_IoT_2_Click\SW\library\HAL\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC32\Packages\mikroBUS Board Definition API\Uses\" "Click_LTE_IoT2_PIC32.c" "__lteiot2_driver.c" "__Lib_CP0.emcl" "__Lib_Math.emcl" "__Lib_MathDouble.emcl" "__Lib_System.emcl" "__Lib_SoftResetDma.emcl" "__Lib_Delays.emcl" "__Lib_CString.emcl" "__Lib_Conversions.emcl" "__Lib_UART_123456.emcl" "easypicfusion_v7_P32MX795F512L.emcl" "Click_LTE_IoT2.pld"	 
+diagnostics: 0	122	Compilation Started	stdint.h
+hint: 0	1004	interrupt handler (Timer_interrupt at 0x0004)	click_lte_iot2_timer.h
+diagnostics: 146	123	Compiled Successfully	Click_LTE_IoT2_PIC32.c
+diagnostics: 0	122	Compilation Started	stdint.h
+diagnostics: 793	123	Compiled Successfully	__lteiot2_driver.c
+hint: 217	1164	Variable 'tmp' has been eliminated by optimizer	__lteiot2_driver.c
+hint: 161	1164	Variable 'tmp' has been eliminated by optimizer	__lteiot2_driver.c
+hint: 324	1164	Variable 'tmp' has been eliminated by optimizer	__lteiot2_driver.c
+hint: 335	1164	Variable 'tmp' has been eliminated by optimizer	__lteiot2_driver.c
+hint: 733	1164	Variable 'tmp' has been eliminated by optimizer	__lteiot2_driver.c
+diagnostics: 0	127	All files Compiled in 110 ms	 
+hint: 0	1144	Used RX: 25 (78%)   Free RX: 7 (22%)	Used RX: 25 (78%)   Free RX: 7 (22%)
+hint: 0	1144	Static RAM (bytes): 1595   Dynamic RAM (bytes): 129473	Static RAM (bytes): 1595   Dynamic RAM (bytes): 129473
+hint: 0	1144	Used ROM (bytes): 9523 (2%)  Free ROM (bytes): 514765 (98%)	Used ROM (bytes): 9523 (2%)  Free ROM (bytes): 514765 (98%)
+hint: 0	1144	Used BOOTROM (bytes): 2104 (17%)  Free BOOTROM (bytes): 10169 (83%)	Used BOOTROM (bytes): 2104 (17%)  Free BOOTROM (bytes): 10169 (83%)
+diagnostics: 0	125	Project Linked Successfully	Click_LTE_IoT2_PIC32.mcp32
+diagnostics: 0	128	Linked in 203 ms	 
+diagnostics: 0	129	Project 'Click_LTE_IoT2_PIC32.mcp32' completed: 422 ms	 
+diagnostics: 0	103	Finished successfully: 30 jul 2018, 08:52:51	Click_LTE_IoT2_PIC32.mcp32

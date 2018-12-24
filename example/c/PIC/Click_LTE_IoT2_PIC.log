@@ -1,0 +1,18 @@
+0	1	mikroCPIC1618.exe -MSF -DBG -pP18F87K22 -DL -O11111114 -fo64 -N"D:\Clicks_git\LTE_IoT_2_Click\SW\example\c\PIC\Click_LTE_IoT2_PIC.mcppi" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\uses\P18\" -SP"D:\Clicks_git\LTE_IoT_2_Click\SW\example\c\PIC\" -SP"D:\Clicks_git\LTE_IoT_2_Click\SW\library\HAL\" -SP"D:\Clicks_git\LTE_IoT_2_Click\SW\library\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Packages\mikroBUS Board Definition API\Uses\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\uses\P18\" -IP"D:\Clicks_git\LTE_IoT_2_Click\SW\example\c\PIC\" -IP"D:\Clicks_git\LTE_IoT_2_Click\SW\library\" -IP"D:\Clicks_git\LTE_IoT_2_Click\SW\library\HAL\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Packages\mikroBUS Board Definition API\Uses\" "Click_LTE_IoT2_PIC.c" "__lteiot2_driver.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl" "__Lib_CString.mcl" "__Lib_Conversions.mcl" "__Lib_UART_c67g12.mcl" "easypicpro_v7_P18F87K22.mcl" "Click_LTE_IoT2.pld"	 
+hint: 0	1139	Available RAM: 3841 [bytes], Available ROM: 131072 [bytes]	 
+diagnostics: 0	122	Compilation Started	stdint.h
+diagnostics: 129	123	Compiled Successfully	Click_LTE_IoT2_PIC.c
+diagnostics: 0	122	Compilation Started	stdint.h
+diagnostics: 793	123	Compiled Successfully	__lteiot2_driver.c
+hint: 217	1164	Variable 'tmp' has been eliminated by optimizer	__lteiot2_driver.c
+hint: 161	1164	Variable 'tmp' has been eliminated by optimizer	__lteiot2_driver.c
+hint: 324	1164	Variable 'tmp' has been eliminated by optimizer	__lteiot2_driver.c
+hint: 335	1164	Variable 'tmp' has been eliminated by optimizer	__lteiot2_driver.c
+hint: 733	1164	Variable 'tmp' has been eliminated by optimizer	__lteiot2_driver.c
+diagnostics: 0	127	All files Compiled in 110 ms	 
+hint: 0	1144	Used RAM (bytes): 1528 (40%)  Free RAM (bytes): 2313 (60%)	Used RAM (bytes): 1528 (40%)  Free RAM (bytes): 2313 (60%)
+hint: 0	1144	Used ROM (bytes): 8901 (7%)  Free ROM (bytes): 122171 (93%)	Used ROM (bytes): 8901 (7%)  Free ROM (bytes): 122171 (93%)
+diagnostics: 0	125	Project Linked Successfully	Click_LTE_IoT2_PIC.mcppi
+diagnostics: 0	128	Linked in 78 ms	 
+diagnostics: 0	129	Project 'Click_LTE_IoT2_PIC.mcppi' completed: 203 ms	 
+diagnostics: 0	103	Finished successfully: 06 jul 2018, 11:01:04	Click_LTE_IoT2_PIC.mcppi

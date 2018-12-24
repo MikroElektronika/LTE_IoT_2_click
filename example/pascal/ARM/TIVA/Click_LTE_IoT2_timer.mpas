@@ -1,0 +1,41 @@
+{*
+
+Use mikroE Timer Calculator to generate proper timer configuration
+and timer ISR.
+
+https://www.mikroe.com/timer-calculator
+
+*}
+unit Click_LTE_IoT2_timer;
+
+uses Click_LTE_IoT2_types;
+
+procedure lteiot2_configTimer(); 
+
+implementation
+
+procedure lteiot2_configTimer(); 
+begin
+
+    SYSCTL_RCGCTIMER_R0_bit := 1; 
+    EnableInterrupts(); 
+    TIMER_CTL_TAEN_bit := 0; 
+    TIMER0_CFG := 4; 
+    TIMER0_TAMR := (TIMER0_TAMR or 2); 
+    TIMER0_TAPR := 1; 
+    TIMER0_TAILR := 60000; 
+    NVIC_IntEnable(IVT_INT_TIMER0A_16_32_bit); 
+    TIMER_IMR_TATOIM_bit := 1; 
+    TIMER_CTL_TAEN_bit := 1; 
+
+end;
+
+procedure Timer_interrupt(); iv IVT_INT_TIMER0A_16_32_bit;
+begin
+
+    lteiot2_tick(); 
+    TIMER_ICR_TATOCINT_bit := 1; 
+
+end;
+
+end.

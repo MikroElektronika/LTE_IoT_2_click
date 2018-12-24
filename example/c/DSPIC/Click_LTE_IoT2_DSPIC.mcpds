@@ -1,0 +1,71 @@
+[DEVICE]
+Name=P33FJ256GP710A
+Clock=8000000
+[BUILD_TYPE]
+Value=0
+
+[MEMORY_MODEL]
+Value=0
+[ACTIVE_TAB]
+Value=Click_LTE_IoT2_DSPIC.c
+[USE_EEPROM]
+Value=0
+[USE_HEAP]
+Value=0
+[HEAP_SIZE]
+Value=2000
+[EEPROM_DEFINITION]
+Value=
+[FILES]
+File0=Click_LTE_IoT2_DSPIC.c
+File1=..\..\..\library\__lteiot2_driver.c
+Count=2
+[BINARIES]
+Count=0
+[IMAGES]
+Count=0
+ActiveImageIndex=-1
+[OPENED_FILES]
+File0=Click_LTE_IoT2_DSPIC.c
+Count=1
+[EEPROM]
+Count=0
+[ACTIVE_COMMENTS_FILES]
+Count=0
+[OTHER_FILES]
+Count=0
+[SEARCH_PATH]
+Path0=..\..\..\library\HAL\
+Path1=..\..\..\library\
+Path2=C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for dsPIC\Packages\mikroBUS Board Definition API\Uses\
+Count=3
+[HEADER_PATH]
+Path0=..\..\..\library\
+Path1=..\..\..\library\HAL\
+Path2=C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for dsPIC\Packages\mikroBUS Board Definition API\Uses\
+Count=3
+[HEADERS]
+File0=..\..\..\library\__lteiot2_driver.h
+File1=Click_LTE_IoT2_config.h
+File2=Click_LTE_IoT2_types.h
+Count=3
+[PLDS]
+File0=Click_LTE_IoT2.pld
+Count=1
+[Useses]
+File0=Conversions
+File1=C_String
+File2=UART
+File3=easypicfusion_v7_P33FJ256GP710A
+Count=4
+[EXPANDED_NODES]
+0=Click_LTE_IoT2_DSPIC.mcpds
+1=Sources
+4=Header Files
+Count=3
+[LIB_EXPANDED_NODES]
+0=mikroE Libraries
+1=System Libraries
+1971=mikroSDK Libraries
+1972=mikroBUS Board Definition API
+Count=4
